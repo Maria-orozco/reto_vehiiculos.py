@@ -1,0 +1,13 @@
+https://replit.com/join/yjqyeeovkr-maria-fernan910 
+ruedas=float(input("numero de ruedas del vehiculo:"))
+combustible=str(input("tipo de combustible que utiliza:"))
+co2=float(input("emisiones de co2:"))
+
+if ruedas == 4 and combustible == "electricidad":
+ print("es un vehiculo electrico") 
+
+elif ruedas >= 4 and combustible == "gasolina" and co2 > 150:
+  print("es un vehiculo grande y contaminante")
+
+else:
+  print("tu coche es un coche de diesel :)")
